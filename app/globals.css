@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+.text-stroke-black {
+  -webkit-text-stroke: 2px black;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

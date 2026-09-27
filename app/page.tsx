@@ -149,7 +149,7 @@ export default function Home() {
                 Pipeline completo para gráficas. Los clientes suben sus archivos PDF o imágenes, el sistema formatea y calcula el costo exacto por página, cobrando de forma automática antes de imprimir.
               </p>
               <div className="border-t border-neutral-800 pt-6 flex items-center justify-between">
-                <Link href="/proyectos/impresiones" className="text-indigo-400 font-semibold text-sm group-hover:text-indigo-300 transition-colors flex items-center gap-2">
+                <Link href="/proyectos/impresionesATuCasa" className="text-indigo-400 font-semibold text-sm group-hover:text-indigo-300 transition-colors flex items-center gap-2">
                   Ver detalles de arquitectura <span className="group-hover:translate-x-1 transition-transform">→</span>
                 </Link>
               </div>

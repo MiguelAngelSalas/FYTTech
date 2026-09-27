@@ -37,10 +37,7 @@ export default function DetalleProyecto() {
         {/* CONTENEDOR DEL VIDEO */}
         <section className="mb-16">
           <div className="w-full aspect-video bg-neutral-900 border border-neutral-800 p-2 rounded-xl shadow-2xl relative">
-            {/* 
-              Cuando tengas tu video grabado, poné el archivo (ej: clipp-demo.mp4) 
-              adentro de la carpeta "public" de Next.js y descomentá esta etiqueta:
-              
+            
               <video 
                 src="/clipp-demo.mp4" 
                 controls 
@@ -49,13 +46,7 @@ export default function DetalleProyecto() {
                 loop
                 className="w-full h-full object-cover rounded-lg"
               />
-            */}
             
-            {/* Esto es un placeholder visual temporal hasta que pongas el video */}
-            <div className="w-full h-full bg-neutral-950 rounded-lg flex flex-col items-center justify-center border border-neutral-800/50">
-              <svg className="w-16 h-16 text-neutral-700 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-              <p className="font-mono text-sm text-neutral-500">[ Área reservada para la demo en video de Clipp ]</p>
-            </div>
           </div>
         </section>
 

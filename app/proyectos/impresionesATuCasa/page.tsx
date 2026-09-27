@@ -39,10 +39,7 @@ export default function DetalleImpresiones() {
         {/* CONTENEDOR DEL VIDEO */}
         <section className="mb-16">
           <div className="w-full aspect-video bg-neutral-900 border border-neutral-800 p-2 rounded-xl shadow-2xl relative">
-            {/* 
-              Cuando grabes la pantalla de la web funcionando, guardala como "impresiones-demo.mp4" 
-              adentro de la carpeta "public" y descomentá esto:
-              
+            
               <video 
                 src="/impresiones-demo.mp4" 
                 controls 
@@ -51,12 +48,6 @@ export default function DetalleImpresiones() {
                 loop
                 className="w-full h-full object-cover rounded-lg"
               />
-            */}
-            
-            <div className="w-full h-full bg-neutral-950 rounded-lg flex flex-col items-center justify-center border border-neutral-800/50">
-              <svg className="w-16 h-16 text-neutral-700 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-              <p className="font-mono text-sm text-neutral-500">[ Área reservada para la demo en video del flujo de impresión ]</p>
-            </div>
           </div>
         </section>
 
